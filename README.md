@@ -1,2 +1,3 @@
 # databricks-cli
-Version 0.18.0
+Version 0.214.0
+
