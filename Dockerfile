@@ -13,8 +13,6 @@ RUN apt-get update && \
 # Install Databricks CLI
 RUN curl -fsSL https://raw.githubusercontent.com/databricks/setup-cli/main/install.sh | sh
 
-# Install the requests module
-RUN pip3 install requests
 
 # Set the PATH to include the Databricks CLI directory
 ENV PATH="/root/.databricks:${PATH}"
