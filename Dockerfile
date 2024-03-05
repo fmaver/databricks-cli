@@ -5,10 +5,10 @@ ENV DATABRICKS_HOST=""
 ENV DATABRICKS_TOKEN=""
 
 # Install necessary dependencies
-#RUN apt-get update && \
-#    apt-get install -y curl unzip
 RUN apt-get update && \
-    apt-get install -y curl unzip python3 python3-pip
+   apt-get install -y curl unzip
+# RUN apt-get update && \
+#     apt-get install -y curl unzip python3 python3-pip
 
 # Install Databricks CLI
 RUN curl -fsSL https://raw.githubusercontent.com/databricks/setup-cli/main/install.sh | sh
