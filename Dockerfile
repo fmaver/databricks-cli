@@ -15,7 +15,7 @@ RUN curl -fsSL https://raw.githubusercontent.com/databricks/setup-cli/main/insta
 
 
 # Set the PATH to include the Databricks CLI directory
-ENV PATH="/root/.databricks:${PATH}"
+#ENV PATH="/root/.databricks:${PATH}"
 
 # Set the working directory
 WORKDIR /root
